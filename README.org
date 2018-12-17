@@ -1,0 +1,38 @@
+* Introduction
+
+This Dockerfile is for the non-emacs users to try the amazing [[https://github.com/dakrone/es-mode][es-mode]]
+for interacting with Elasticsearch.  You don't have to setup the emacs.
+
+* Usage
+
+Build and Run.
+
+#+BEGIN_SRC sh
+$ cd es-mode-demo
+$ docker build -t es-mode-demo . && docker run --rm -it es-mode-demo
+#+END_SRC
+
+This opens the sample .es file `sample.es'.
+
+- Type ctrl-c ctrl-u to specify the ES endpoint 
+- Type ctrl-c ctrl-c to call the REST API 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
