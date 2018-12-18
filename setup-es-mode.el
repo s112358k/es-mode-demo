@@ -1,6 +1,11 @@
 (require 'package)
-(package-initialize)
-(add-to-list 'package-archives '("gnu"   . "https://elpa.gnu.org/packages/" ))
+(require 'org)
+
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/" ))
+
+(package-initialize)
 (package-refresh-contents)
+(package-install)
 (package-install 'es-mode)
+
+

@@ -1,8 +1,8 @@
 # Get Status
 GET /
 
-# List Indices
-GET _aliases?pretty
+# cat Indices
+GET _cat/indices?pretty
 
 # Create Index
 PUT demo?pretty
@@ -13,10 +13,11 @@ PUT demo?pretty
   }
 }
 
-# Push Doc
+# Put Doc
 PUT demo/doc/1?pretty
 {
-  "title" : "hello elastic"
+  "title" : "hello elastic",
+  "more_title" : "hello es-mode"
 }
 
 # Fetch Doc

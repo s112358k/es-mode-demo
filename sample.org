@@ -1,0 +1,19 @@
+#+BEGIN_SRC es
+PUT demo/doc/1?pretty
+{
+  "title" : "hello elastic",
+  "sub_title" : "hello es-mode"
+}
+#+END_SRC
+
+#+BEGIN_SRC es
+GET demo/doc/1?pretty
+#+END_SRC
+
+#+BEGIN_SRC es :jq ._source.title
+GET demo/doc/1?pretty
+#+END_SRC
+
+#+BEGIN_SRC es :jq ._source.sub_title
+GET hoge/doc/1?pretty
+#+END_SRC
