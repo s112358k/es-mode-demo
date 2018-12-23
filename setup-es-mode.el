@@ -5,7 +5,6 @@
 
 (package-initialize)
 (package-refresh-contents)
-(package-install)
 (package-install 'es-mode)
 
 

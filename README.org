@@ -1,6 +1,6 @@
 * Introduction
 
-This Dockerfile is for the non-emacs users to try the amazing [[https://github.com/dakrone/es-mode][es-mode]]
+This Dockerfile is for non-emacs users to try the amazing [[https://github.com/dakrone/es-mode][es-mode]]
 for interacting with Elasticsearch.  You don't have to setup the emacs.
 
 * Usage
